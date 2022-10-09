@@ -68,15 +68,17 @@ html{
 }
 .burger{
     display: none;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
   right:5%;
   top:15px;
+  
 }
 .line{
     width: 33px;
     background-color: white;
-    height: 4px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        height: 4px;
     margin: 5px 3px;
 }
 .box-main{
@@ -214,9 +216,16 @@ html{
         flex-direction: column;
     }
     .navbar{
+        position: fixed;
+        width: 100%;
+        top: -100%;
         flex-direction: column;
+        background-color: none;
         height:478px;
         transition: all 0.7s ease-out;
+    }
+    .show{
+        top: 0;
     }
     .rightnav{
         text-align: center;
@@ -225,6 +234,7 @@ html{
         width: 100%;
     }
     .burger{
+        
         display: block;
     }
     .h-nav{
