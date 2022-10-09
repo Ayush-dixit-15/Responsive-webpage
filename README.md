@@ -2,7 +2,7 @@
 <p align="center" width="100%">
 <img src="https://pbs.twimg.com/profile_images/1567906020831150081/oJ7mKaaj_400x400.jpg" width="300">
 
-# <p align="center">[Contribute To This Project](https://ayush-dixit-15.github.io/Reponsive-webpage/)</p>
+# <p align="center">[Contribute To This Project](https://ayush-dixit-15.github.io/Responsive-webpage/)</p>
 
 
 
