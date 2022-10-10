@@ -284,3 +284,47 @@ html {
   background-color: white;
   color: black;
 }
+.watch:hover{
+    transform: scale(1.1);
+    background-color: white;
+color: black;
+
+}
+.search{
+    padding: 3px 11px;
+    margin:7px 3px;
+    border:2px solid white;
+    border-radius:8px;
+    background: none;
+    color:white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px;
+}
+
+.search:hover{
+    transform: scale(1.1);
+    background-color: white;
+color: black;
+
+}
+
+.submit{
+    padding: 3px 20px;
+    margin:7px 3px;
+    border:2px solid black;
+    border-radius:8px;
+    background: none;
+    color:black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px;
+
+}
+
+.submit:hover{
+    transform: scale(1.1);
+    background-color: black;
+color: white;
+
+}
