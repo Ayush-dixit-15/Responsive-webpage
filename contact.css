@@ -110,11 +110,12 @@ color: black;
 }
 .bimg img{
     width: 100vw;
+    height: 100%;
 }
 
 .contact{
     /* background:white; */
-    height: 833px;
+    height: 100%;
 }
 .contact1{
     text-align: center;
