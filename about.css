@@ -69,11 +69,21 @@ html{
 
 }
 .burger{
-    display: none;
-  position: fixed;
+  display: none;
   cursor: pointer;
   right:5%;
   top:15px;
+  color: #fff !important;
+  font-size: 24px;
+  position:relative;
+  text-align: center;
+  width:250px;
+  padding:40px;
+  font-size:35px;
+  color:#15f4ee;
+  font-family: poppins;
+  font-weight:400;
+   
   
 }
 .line{
@@ -156,11 +166,15 @@ color: white;
 
 .services:hover{
     transform: scale(1.1);
-    background-color: black;
-color: white;
+    color: white;
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 
 }
 
 .content h1{
     padding: 25px 0px;
+}
+
+content h1:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
