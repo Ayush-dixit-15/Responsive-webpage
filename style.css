@@ -5,6 +5,10 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body{
+  overflow-x: hidden;
 }
 .logo {
   width: 20%;
@@ -81,12 +85,15 @@ html {
 .box-main {
   display: flex;
   justify-content: center;
+  gap: 4rem;
   align-items: center;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 50%;
-  margin: auto;
-  height: 80%;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  padding: 2rem;
+ 
 }
 .firstsection {
   height: 100vh;
@@ -98,17 +105,16 @@ html {
   flex-direction: column;
 }
 .secondhalf img {
-  width: 70%;
-  border: 2px solid white;
-  border-radius: 150px;
-  display: block;
-  margin: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  
 }
 .bigtext {
-  font-size: 40px;
+  font-size: 4rem;
 }
-.smalltext {
-  font-size: 18px;
+.box-main p {
+  font-size: 1.8rem;
+  padding: 1rem 0 2rem 0;
 }
 .subscribe {
   padding: 8px 20px;
@@ -250,12 +256,29 @@ html {
 .align-center {
   text-align: center;
 }
+/* // media querie start here  */
+@media(max-width:991px){
+
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px){
+  .box-main{
+    flex-direction: column-reverse;
+  }
+}
+
+
+
+
 @media only screen and (max-width: 1140px) {
   .nav-list {
     flex-direction: column;
   }
   .navbar {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     top: -100%;
     flex-direction: column;
@@ -285,11 +308,11 @@ html {
     flex-direction: column-reverse;
   }
   .bigtext {
-
     text-align: center;
   }
   .smalltext {
     text-align: center;
+    padding: 1rem 0 2rem 0;
   }
   .para {
     padding: 0px;
@@ -350,5 +373,12 @@ color: black;
     background-color: black;
 color: white;
 
+}
+
+@media(max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
 }
 
