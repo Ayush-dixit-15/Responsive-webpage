@@ -41,16 +41,17 @@ body{
   list-style: none;
   padding: 26px 30px;
 }
-.nav-list li:hover {
-  color: gray;
-  list-style: none;
-  padding: 26px 30px;
-}
 .nav-list li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-family: "Ubuntu", sans-serif;
+}
+.nav-list li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid red;
+  list-style: none;
+
 }
 .rightnav {
   padding: 0px 23px;
@@ -382,3 +383,10 @@ color: white;
   }
 }
 
+
+
+@media(max-height:770px){
+  .box-main{
+    top: 4%;
+  }
+}

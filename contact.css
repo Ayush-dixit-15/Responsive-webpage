@@ -38,11 +38,12 @@ html{
     list-style: none;
     padding: 26px 30px;
 }
-.nav-list li:hover{
-    color: gray;
+.nav-list li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
     list-style: none;
-    padding: 26px 30px;
-}
+  
+  }
 .nav-list li a{
     text-decoration: none;
     color: white;
@@ -104,13 +105,14 @@ color: black;
 }
 .bimg{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     z-index: -1;
 }
 .bimg img{
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
 }
 
 .contact{
@@ -121,18 +123,35 @@ color: black;
     text-align: center;
     padding-top: 20px;
     font-family: 'Ubuntu', sans-serif;   
-    font-size:35px ;
+    font-size:50px ;
+    color: white;
+    margin: 40px 0 60px 0;
+   
 }
 .form input{
-    margin:14px 0;
-    padding: 5px 3px;
-    width:100%; 
+    margin: 12px 0;
+    padding: 10px 28px;
+    width: 100%;
+    outline: none;
+    border: none;
     font-size: 20px;
-    border:2px solid grey;
     border-radius: 6px;
+
+}
+.form textarea{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+
+
+}
+.form input::focus{
+    border-bottom-width: 4px;
+    border-color: rgb(188, 20, 20);
 }
 .form{
-    max-width: 62%;
+    max-width: 60%;
     margin:25px auto;
 
 }
@@ -145,7 +164,8 @@ color: black;
     color:black;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
-    font-size:16px;
+    font-size:25px;
+    border: 2px solid black;
 
 }
 
@@ -153,5 +173,6 @@ color: black;
     transform: scale(1.1);
     background-color: black;
 color: white;
+border: 2px solid white;
 
 }
