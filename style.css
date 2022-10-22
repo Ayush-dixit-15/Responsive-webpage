@@ -18,7 +18,7 @@ body{
 }
 .logo img {
   width: 26%;
-  border: 3px solid white;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 50px;
   margin: 5px;
 }
@@ -45,7 +45,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "georgia", serif;
 }
 .nav-list li a:hover {
   padding-bottom: 5px;
@@ -61,7 +61,7 @@ body{
 #search {
   padding: 5px;
   font-size: 17px;
-  border: 2px solid gray;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 9px;
 }
 .background {
@@ -89,7 +89,7 @@ body{
   gap: 4rem;
   align-items: center;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "georgia", serif;
   position: relative;
   top: 20%;
   text-align: center;
@@ -125,8 +125,38 @@ body{
   background: none;
   color: white;
   cursor: pointer;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "georgia", serif;
   font-size: 20px;
+}
+
+.subscribe:hover{
+  border-color:rgb(0, 0, 0);
+  background-color: #000607;
+}
+.subscribe{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.subscribe:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 08px;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.subscribe:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.subscribe:hover:after {
+  opacity: 1;
+  right: 10px;
 }
 .watch {
   padding: 8px 20px;
@@ -136,8 +166,37 @@ body{
   background: none;
   color: white;
   cursor: pointer;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "georgia", serif;
   font-size: 20px;
+}
+.watch:hover{
+  border-color:rgb(0, 0, 0);
+  background-color: #000607;
+}
+.watch{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.watch:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 08px;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.watch:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.watch:hover:after {
+  opacity: 1;
+  right: 10px;
 }
 .btn-sm {
   padding: 6px 10px;
@@ -153,7 +212,7 @@ body{
   justify-content: space-evenly;
   max-width: 80%;
   margin: auto;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "georgia", serif;
 }
 .left {
   flex-direction: row-reverse;
@@ -162,7 +221,7 @@ body{
   padding: 15px 65px;
 }
 .sectionsubtag {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "georgia", serif;
 }
 
 .thumb img {
@@ -204,7 +263,7 @@ body{
 .contact1 {
   text-align: center;
   padding-top: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "georgia", serif;
   font-size: 35px;
 }
 .form input {
@@ -239,7 +298,7 @@ body{
 .text-footer {
   text-align: center;
   padding: 30px 0px;
-  font-family: "Ubuntu", sans-serif;
+  font-family:"georgia", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -342,10 +401,10 @@ color: black;
     margin:7px 3px;
     border:2px solid white;
     border-radius:8px;
-    background: none;
+    background: none;   
     color:white;
     cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
+    font-family:"georgia", serif;
     font-size:16px;
 }
 
@@ -364,7 +423,7 @@ color: black;
     background: none;
     color:black;
     cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "georgia", serif;
     font-size:16px;
 
 }
